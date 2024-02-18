@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <DefineConstants>FABLE_COMPILER</DefineConstants>
+    <OtherFlags>
+      --warnaserror:FS0025;FS0003;FS1182;FS0065;FS0058;FS0020;FS0044;FS0193
+    </OtherFlags>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Util.fs" />
+    <Compile Include="App.fs" />
+    <Compile Include="Main.fs" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>

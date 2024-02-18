@@ -1,0 +1,5 @@
+/bin/
+/obj/
+/fable_modules/
+/**/*.jsx
+/**/*.jsx.map

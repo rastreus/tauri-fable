@@ -1,0 +1,11 @@
+{
+  "FSharp.inlayHints.typeAnnotations": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "files.exclude": {
+    "**/._*": true,
+    "**/*.fs.js.map": true,
+    "**/*.fs.js": true,
+    "**/*.jsx.map": true,
+    "**/*.jsx": true
+  }
+}

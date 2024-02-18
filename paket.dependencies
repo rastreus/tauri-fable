@@ -1,0 +1,12 @@
+version 8.0.3
+source https://api.nuget.org/v3/index.json
+
+group Src
+    source https://api.nuget.org/v3/index.json
+    framework: net8.0
+    storage: none
+
+    nuget FSharp.Core == 8.0.200
+    nuget Fable.Core ~> 4
+    nuget Fable.Promise == 3.2.0
+    nuget Feliz >= 2.7.0
